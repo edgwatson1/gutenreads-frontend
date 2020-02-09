@@ -1,0 +1,53 @@
+nav {
+  background-color: antiquewhite;
+  background: rgb(253, 248, 228);
+  background: linear-gradient(
+    186deg,
+    rgba(253, 248, 228, 1) 100%,
+    rgba(248, 246, 239, 1) 100%
+  );
+  border-bottom: 0.8px solid #dbd4b0;
+  overflow: hidden;
+  margin-bottom: 6%;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* this is optional and should be different for every project */
+}
+
+nav li {
+  color: darkgray;
+  font-size: 1.2em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5%;
+}
+
+#logo {
+  font-family: "Judson", serif;
+  color: #4f351b;
+  font-size: 1.3em;
+  cursor: pointer;
+  align-content: left;
+  letter-spacing: -0.8px;
+}
+
+.ui.search {
+  font-size: 10px;
+  min-width: 3em !important;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 10px 10px;
+}

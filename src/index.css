@@ -1,13 +1,49 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fdfcf8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "Quando", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  color: lightgray !important;
+}
+
+h1 {
+  font-family: "Judson", serif;
+  font-size: 1.5em;
+  color: #4f351b;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Quando", serif;
+  color: #4f351b;
+}
+
+h3 {
+  font-family: "Quando", serif;
+  color: black;
+}
+
+p {
+  font-family: "Quando", serif;
+  color: black;
+  font-size: 0.7em;
+  text-align: left;
+}
+
+.feed-container {
+  max-width: 50%;
+  margin: 0 auto;
+  align: left;
 }
